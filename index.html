@@ -19,7 +19,7 @@
     <!-- Magnigic Popup-->
     <link rel="stylesheet" href="vendor/magnific-popup/magnific-popup.css">
     <!-- theme stylesheet-->
-    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <link rel="stylesheet" href="css/style.css" id="theme-stylesheet">
     <!-- Custom stylesheet - for your changes-->
 
 
@@ -58,13 +58,8 @@
        
     </header>
 
-
-
-
     <section class="py-5 bg-gray-100">
-
-        
-        <button class="boom"><img src="img/photo/fire.png" height="15px" width="15px" />24h Trending</button>
+<button class="boom"><img src="img/photo/fire.png" height="15px" width="15px" />24h Trending</button>
         <button class="boom sm">Latest shows</button>
         <button class="boom sm">Most Popular</button>
         <button class="boom sm"><img src="img/photo/diamond.png" height="15px" width="15px" />In Genesis</button>
@@ -152,27 +147,7 @@
         </div>
     </footer>
     <!-- JavaScript files-->
-    <script>
-        // ------------------------------------------------------- //
-        //   Inject SVG Sprite - 
-        //   see more here 
-        //   https://css-tricks.com/ajaxing-svg-sprite/
-        // ------------------------------------------------------ //
-        function injectSvgSprite(path) {
-
-            var ajax = new XMLHttpRequest();
-            ajax.open("GET", path, true);
-            ajax.send();
-            ajax.onload = function(e) {
-                var div = document.createElement("div");
-                div.className = 'd-none';
-                div.innerHTML = ajax.responseText;
-                document.body.insertBefore(div, document.body.childNodes[0]);
-            }
-        }
-      
-        injectSvgSprite('https://demo.bootstrapious.com/directory/1-4/icons/orion-svg-sprite.svg');
-    </script>
+    
     <!-- jQuery-->
     <script src="vendor/jquery/jquery.min.js"></script>
     <!-- Bootstrap JS bundle - Bootstrap + PopperJS-->
@@ -185,13 +160,9 @@
     <script src="vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
     <!-- Object Fit Images - Fallback for browsers that don't support object-fit-->
     <script src="vendor/object-fit-images/ofi.min.js"></script>
-    <!-- Swiper Carousel                       -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
-    <script>
-        var basePath = ''
-    </script>
-    <!-- Main Theme JS file    -->
-    <script src="js/theme.js"></script>
+    
+   
+   
 </body>
 
 </html>
